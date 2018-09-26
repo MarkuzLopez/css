@@ -1,0 +1,39 @@
+ body { 
+     font-family: Arial, Helvetica, sans-serif;
+     background: #e8e8e8;
+ }
+
+ .menu { 
+     list-style: none;
+     padding: 0;
+     background: #092327;
+     width: 90%;
+     margin: 20px auto; 
+     /* se centra el menu con esa linea de codigo0 */
+ }
+
+ /* PARA REALIZAR UNA LISTA EN LATERAL */
+ .menu li { 
+     display: inline-block;
+ }
+
+ .menu li a { 
+     color: #fff;
+     text-decoration: none;
+     display: block;
+     padding: 20px;
+ } 
+
+
+ .izquierda {
+     
+     text-align: right;
+     background: #ef8354;
+ }
+
+
+ /* PARA ACTIVAR UN EFECTO CUANDO EL MOUSE PASE SOBRE CADA BOTON */
+
+ .menu li a:hover { 
+     background: #ef8354;
+ }

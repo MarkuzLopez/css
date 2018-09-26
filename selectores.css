@@ -1,0 +1,17 @@
+/*
+ * { 
+    selector universal 
+}
+} */
+h1, h2, h3  { 
+    color: blue;
+}
+
+div p { 
+    font-size: 20px;
+    color: black;
+}
+
+.grande { 
+    font-size: 29px;
+}

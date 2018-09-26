@@ -1,0 +1,58 @@
+Felxbos es un conjunto de propiedades que nos permite distribuir nuesros elementos de uan forma flexible para mejores layouts
+
+para utilizar flexbox necesitamos un contenedor padre que tenga elementos hijos. Ya que a estos son los que se haran flexibles.
+
+Flexbox se divide en 2 grupos de propiedades: 
+    -Propiedades para los elementos padre.
+    -Propidades para los elementos hijo- 
+
+
+===================================
+Propiedades del contenedor padre:
+===================================
+
+-> display: flex;
+    Nos permite habilitar que los elementos hijos sean flexibles
+
+->flex-direction: 
+    row |  row-reverse  | column | column-reverse
+
+->flex-wrap: 
+    now-wrap | wrap | wrap-reverse 
+
+->flex-flow: <flex-direction> || flex-wrap: 
+ es un atajo de flex-direction y flex-wrap.
+
+->justify-content: 
+    flex-start | flex-end | center | space-between | space-around
+
+->align-items: 
+    flex-start | flex-end | center strech | baseline
+
+-> align-content: 
+ IMPORTANTE: esta porpiedad solo funciona cuando hay mas de una linea de elementos.
+
+ flex-start | flex-end | center | strech | space-between | space-around
+
+
+
+ ==================================
+ Propiedades de los elementos hijo
+ ==================================
+
+-order: 
+
+flex-grow: 
+    Acepta un numero que servira de proporcion para hacer crecer el elemento en relacion a los otros.
+
+    si todos los elementos  tienen flex-grow i el espacio restante se distribuira entre los elementos.
+
+-flex-shrink: 
+     Define la habilidad de un elemento para hacerse mas pequeño. 
+
+     por defecto todos se puede hacer mas pequequeños pero si le ponemos flex-shrink 0 el elemento no podra ser mas pequeño que su ancho
+
+-flex-basis: 
+    Nos permite especificar el valor inicial que tendra un elemento.
+
+    

@@ -1,0 +1,14 @@
+/* ul, lo { 
+    list-style: none;
+    padding: 0;
+} */
+
+ul { 
+    list-style: square;
+    list-style-image: url('img/list.png');
+
+}
+
+ol { 
+    list-style: lower-roman;
+}
